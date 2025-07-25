@@ -20,6 +20,12 @@ body{
     place-items: center;
 }
 
+/* main styles */
+
+main{
+    margin-left: 300px;
+}
+
 /* font styles */
 
 .inter-normal{
@@ -349,14 +355,88 @@ body{
     margin-bottom:70px;
 }
 
-
-
-
-
 /* Let’s Get In Touch Section styles */
 
+.lets-get-in-touch-section{
+    display: flex;
+    gap: 40px;
+    width: 1600px;
+    margin-top:93px;
+    margin-bottom:14px;
+    margin-left:300px;
+    margin-right:150px;
+}
 
+.lets-get-in-touch-section-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
 
+.lets-get-in-touch-section-form-btn{
+    color: #FFFFFF;
+    font-size:16px ;
+    font-weight:bold;
+    width: 540px;
+    height:72px ;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 19px;
+}
+
+.lets-get-in-touch-section-title{
+    width:600px ;
+    height:150px ;
+   font-weight:bold ;
+   font-size:97px ;
+   color: #000000;
+   margin-top: 220px;
+}
+
+.lets-get-in-touch-section-form-title{
+   font-weight:500;
+   font-size:18px ;
+   color: #000000;
+   margin-bottom: 10px;
+   margin-top: 19px;
+}
+
+.lets-get-in-touch-section-form-bar-1{
+    width: 497px;
+    height: 70px;
+    border-radius:10px ;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    border: 1px solid #D6DDED;
+    padding-left: 30px;
+}
+
+.lets-get-in-touch-section-form-bar-2{
+    width: 497px;
+    height: 70px;
+    border-radius:10px ;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    border: 1px solid #D6DDED;
+    padding-left: 30px;
+}
+
+.lets-get-in-touch-section-form-bar-3{
+    width: 497px;
+    height: 100px;
+    border-radius:10px ;
+    background-color: #FFFFFF;
+    padding: 22px 10px;
+    border: 1px solid #D6DDED;
+    padding-left: 30px;
+}
+
+::placeholder{
+   color:#000000;
+   font-size:20px;
+   opacity: 50%;
+}
 
 /* footer section styles */
 
