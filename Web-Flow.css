@@ -3,9 +3,13 @@
 .header{
     background-image: url("./Assets/Hero-bg.png");
     background-repeat: none;
-    width: 1440px;
+    width: 5000px;
     height: 700px;
     padding: 30px  200px 0px;
+}
+
+.measurement{
+    margin-left: 1750px;
 }
 
 /* body styles */
@@ -131,6 +135,7 @@ body{
     flex-direction: column;
     width: 517px;
     height: 60px;
+    margin-top:20px;
 }
 
 .action-section-title{
@@ -440,8 +445,54 @@ body{
 
 /* footer section styles */
 
+.footer-section{
+    background-color: #FFFFFF;
+    width: 5500px;
+    height: 550px;
+    margin-top: 150px;
+}
 
+.logo-section{
+    text-align: center;
+}
 
+.logo-title{
+ font-size:100px ;
+ font-weight:900 ;
+ color:#4E47FF ;
+ text-align: center;
+ margin-top: 103px;
+ margin-bottom: 203px;
+ margin-left: 575px;
+ margin-right: 575px;
+}
+
+.logo-subtitle{
+    color:#8987A1;
+    text-align: center;
+    width: 510px;
+    margin-top: 8px;
+    margin-left:2490px;
+    position: relative;
+    bottom: 170px;
+    line-height: 1.5;
+}
+
+.link{
+    color:#8987A1 ;
+    margin-top: 20px;
+    margin-bottom: 103px;
+    text-decoration: none; 
+}
+
+.link-styles{ 
+   display: flex;
+   list-style: none;
+   gap: 48px;
+   position: relative;
+   bottom:110px ;
+   margin-left:2515px;
+}
 
 /* button animation styles */
 .button:hover{
