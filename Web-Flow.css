@@ -183,9 +183,6 @@ body{
     height: 121px;
 }
 
-.amount-info{
-
-}
 .amount{
      font-size:80px  ;
     font-weight:bold;
@@ -197,11 +194,9 @@ body{
      font-size:20px ;
      color:#000000 ;
      opacity: 50%;
-     margin-left: 30px;
+     margin-left: 25px;
      position: relative;
      bottom: 70px;
-     
-
 }
 
 
