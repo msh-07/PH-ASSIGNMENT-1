@@ -49,7 +49,7 @@
 
 /* body styles */
 body{
-    background-color: #D6DDED;
+    background-color: #f5f6f8;
 }
 
 
@@ -95,24 +95,114 @@ body{
    
 }
 
-
 /* action section styles */
+.action-section{
+    display: flex;
+    gap: 220px;
+    margin-top: 116px;
+    margin-right: 150px;
+  
+    justify-content:center ;
+    width: 1140px;
+    height: 328px;
+    margin-left: 310px;
+}
+.action-section-details{
+    display: flex;
+    flex-direction: column;
+    width: 517px;
+   height: 60px;
+}
+.action-section-title{
+    font-size:42px ;
+    font-weight: bold;
+    color:#252432 ;
+}
+.action-section-description {
+      font-size:24px ;
+      color:#252432 ;
+      margin-top: 23px;
+      opacity: 50%;
 
+}
+.action-section-btn{
+      color: #FFFFFF;
+    font-size:16px ;
+    font-weight: bold;
+    width: 229px;
+    height:48px ;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 23px;
 
+}
 
-/* ready to focus better section styles */
+.action-section-img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
 
+}
 
 
 /* productive users section styles */
+.productive-users-section{
+ background-color: #e4e4ee;
+ border: none;
+ border-radius: 24px;
+ width: 1140px;
+ height: 250px;
+ padding: 20px 10px;
+ margin-top: 116px;
+ margin-right: 150px;
+ margin-left: 300px;
+ 
+}
+.productive-users-section-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 142px;
+    margin-right: 142px;
+    font-size:38px ;
+    font-weight:bold ;
+    color: #252432;
+    opacity: 100%;
 
+}
+.number-of-users {
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+      margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 158px;
+    width: 856px;
+    height: 121px;
+}
 
+.amount-info{
 
-/* Let’s Get In Touch Section styles */
+}
+.amount{
+     font-size:80px  ;
+    font-weight:bold;
+    color:#4E47FF ;
+    margin-left: 20px;
+    
+}
+.amount-description{
+     font-size:20px ;
+     color:#000000 ;
+     opacity: 50%;
+     margin-left: 30px;
+     position: relative;
+     bottom: 70px;
+     
 
-
-
-/* footer section styles */
+}
 
 
 
@@ -120,8 +210,24 @@ body{
 
 
 
+
+/* ready to focus better section styles */
+
+
+
+
+/* Let’s Get In Touch Section styles */
+
+
+
+
+/* footer section styles */
+
+
+
+
 /* button animation styles */
 .button:hover{
-    background-color:rgb(11, 197, 221) ;
+    background-color:rgb(87, 222, 240) ;
     cursor: pointer;
 }
